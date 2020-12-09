@@ -1,0 +1,46 @@
+body {
+    background:linear-gradient(yellow,red,blue); 
+   }
+   
+    h1 {
+       text-shadow:5px 4px 2px blue;
+       font:90px;
+       text-align:center;
+   }
+   
+   h3 {
+       text-shadow:5px 3px 4px gold;
+       font-family:Helvetica,Arial, sans-serif;
+       text-decoration:bolder;
+   }
+   
+   li {
+        list-style-type:circle ;   
+        }
+   
+#myProgressbox {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: yellow;
+}
+
+#myBar {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  background-color: red;
+}
+
+#percent {
+  text-align: center;
+  line-height: 30px;
+  color: blue;
+}
+
+#Progressbox {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: red;
+}
